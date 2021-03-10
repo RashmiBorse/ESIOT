@@ -4,7 +4,7 @@ from time import sleep
 camera = PiCamera()
 
 camera.rotation = 180  #rotate image
-camera.brightness = 60 #Aadjust brightness
+camera.brightness = 60 #Adjust brightness
 camera.resolution = (1028,760)
 
 camera.start_preview()
